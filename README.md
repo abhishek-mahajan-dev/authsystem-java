@@ -60,7 +60,7 @@ The application sends emails for password setup and reset. You need to configure
     spring.mail.properties.mail.smtp.starttls.enable=true
     spring.mail.properties.mail.smtp.ssl.trust=smtp.gmail.com
     ```
-    **Important:** For production environments, consider using environment variables or a more secure way to manage sensitive credentials instead of hardcoding them in `application.properties`.
+   
 
 ## 3. Build the Project
 
