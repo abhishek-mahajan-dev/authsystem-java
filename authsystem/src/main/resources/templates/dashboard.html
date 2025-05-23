@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2>Welcome to Your Dashboard</h2>
+            <label for="darkModeToggle" class="switch">
+                <input type="checkbox" id="darkModeToggle" />
+                <span id="modeIcon">☀️</span>
+            </label>
+        </header>
+
+        <div class="form">
+            <p>You are successfully logged in.</p>
+            <form action="/logout" method="post">
+                <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}" />
+                <button type="submit" class="submit-btn">Logout</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="/js/scripts.js"></script>
+</body>
+</html>
