@@ -1,4 +1,4 @@
-# Setup and Run Guide for the Authentication System 🚀
+# Setup and Run Guide for the Authentication System 
 
 This guide will walk you through the steps to set up and run the Spring Boot Authentication System on your local machine.
 
