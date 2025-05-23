@@ -41,7 +41,7 @@ Before you begin, ensure you have the following installed:
     spring.jpa.show-sql=true
     spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
     ```
-    * **`spring.jpa.hibernate.ddl-auto=update`**: This setting is crucial. When the application starts for the first time, Hibernate (JPA provider) will automatically create the `users` and `verification_token` tables in your `auth_system_db` database. For subsequent runs, it will update the schema if any changes are detected in your entity classes.
+    * **`spring.jpa.hibernate.ddl-auto=update`**: This setting is crucial. When the application starts for the first time, Hibernate (JPA provider) will automatically create the `users` and `verification_token` tables in your `authsystem` database. For subsequent runs, it will update the schema if any changes are detected in your entity classes.
 
 ## 2. Email Configuration (SMTP)
 
